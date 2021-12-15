@@ -190,7 +190,6 @@ class ViewController: UIViewController {
         let secondPoint = Int(secondBKPoint) ?? 0
         if firstPoint == 1 && secondPoint == 1 {
             self.bkPoint = 12
-//            self.changeBankerAcePoint = false
         }else if point > 9{
             self.bkPoint += 10
         }else if point == 1{
@@ -213,7 +212,6 @@ class ViewController: UIViewController {
         let secondPoint = Int(secondPLPoint) ?? 0
         if firstPoint == 1 && secondPoint == 1{
             self.plPoint = 12
-//            self.changePlayerAcePoint = false
         }else if point > 9{
             self.plPoint += 10
         }else if point == 1{
